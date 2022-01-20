@@ -1,0 +1,7 @@
+.WordLine {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  height: 60px;
+  grid-gap: 20px;
+  margin-top: 20px;
+}

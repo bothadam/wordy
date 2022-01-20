@@ -1,0 +1,9 @@
+.WordLetter {
+  background-color: grey;
+  border: 1px solid black;
+  color: white;
+  font-size: 30px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}

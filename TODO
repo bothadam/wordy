@@ -1,0 +1,13 @@
+Get frontend up and running
+-display grid of 6 guess with 5 blocks each
+-allow entering data into the blocks
+-disallow editing after submission
+-query cloud function with guess
+-display results and lock that line
+  -display correct letter and placing
+  -display correct letter only
+  -display non correct letter
+-display word after 6 attempts
+-build keyboard that shows used/correct letters
+
+Deploy react app
