@@ -7,3 +7,11 @@
   align-content: center;
   justify-content: center;
 }
+
+.correct {
+  background-color: #2ecc40;
+}
+
+.incorrect {
+  background-color: #ff4136;
+}

@@ -22,6 +22,7 @@ admin.initializeApp({
 exports.compareWord = functions.https.onRequest(async (req, res) => {
   const wordOfTheDay = "bread";
   const userAttempt = req.query.userAttempt;
+  res.set("Access-Control-Allow-Origin", "*");
 
   if (userAttempt.length !== wordOfTheDay.length) {
     res.json({ error: "Word has incorrect length" });
