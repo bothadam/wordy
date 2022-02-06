@@ -1,0 +1,22 @@
+get current project
+gcloud config get-value project  
+(linebooker) (wordy-338816)
+ 
+SET PROJECT
+gcloud config set project wordy-338816
+
+gcloud config configurations list
+
+pre configured
+gcloud config configurations activate wordy
+gcloud config configurations activate linebooker
+
+
+
+
+-
+
+firebase deploy --only functions
+
+Do do local development
+firebase emulators:start
